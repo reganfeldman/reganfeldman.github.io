@@ -1,0 +1,353 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 1587px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of Eric Meyer's reset script */
+
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	color: #333;
+	font: 100%/1.5 sans-serif;
+	text-align: center;
+}
+
+
+header h1{
+	margin-top: 80px;
+	font-size: 18px;
+	height: 39px;
+	line-height: 27px;
+	
+}
+
+.nav{
+	display: inline-block;
+	float: right;
+	position: relative;
+	color: rgb(51, 102, 153);
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+
+.nav li{
+	display: inline;
+	padding: 0 10px;
+}
+
+.nav a{
+	text-decoration: none;
+}
+
+a:link a:visited {
+	color: #369;
+}
+
+a:hover a:active {
+	color: #369;
+}
+
+
+.header{
+	outline: 1px solid red;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+aside{
+	float: left;
+	margin: 30px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+	width: auto;
+	display: inline-block;
+	text-align: left;
+	
+}
+
+.content {
+	outline: 1px solid red;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.content h1 {
+	color: rgb(35, 35, 35);
+	display: block;
+	font-family: 'CrimsonSemibold', 'Times New Roman', Georgia, serif;
+	font-size: 58px;
+	font-size: normal;
+	font-weight: 500;
+	height: 116px;
+	letter-spacing: -2px;
+	line-height: 58px;
+	margin: auto;
+	margin-top: 25px;
+	width: 900px;
+
+}
+
+
+.content h2{
+	color: rgb(34, 34, 34);
+	display: block;
+	font-family: 'CrimsonSemibold', 'Times New Roman', Georgia, serif;
+	font-size: 20px;
+	font-weight: 500;
+	height: 27px;
+	line-height: 27px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.products {
+	background #ccc;
+	max-width: 50em;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.products > ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.products > ul > li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.product {
+	background: #fafafa;
+ 	width: 12em;
+  	height: 15em;
+  	margin: 1em;
+ 	padding: .5em;
+ 	text-align: left;
+ 	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+}
+
+#p1 {
+	float: left;
+	width: 160px;
+	text-align: center;
+
+}
+
+#p1 .first{
+	color: rgb(51, 102, 153);
+	cursor: auto;
+	display: inline;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	height: auto;
+	line-height: 27px;
+	text-align: center;
+	text-decoration: underline;
+	width: auto;
+}
+
+
+#p1 .second{
+	color: rgb(204, 0, 0);
+	cursor: auto;
+	display: block;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 27px;
+	line-height: 27px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 5px;
+	text-align: center;
+	width: 160px;
+}
+
+#p1 .third{
+	color: rgb(34, 34, 34);
+	cursor: auto;
+	display: block;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	height: 38px;
+	line-height: 19.59375px;
+	margin-top: 5px;
+	text-align: center;
+	width: 160px;
+}
+
+
+#p1 a{
+	text-decoration: none;
+}
+
+#p2 {
+	float: left;
+	width: 160px;
+	text-align: center;
+}
+
+
+#p2 .first{
+	color: rgb(51, 102, 153);
+	cursor: auto;
+	display: inline;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	height: auto;
+	line-height: 27px;
+	text-align: center;
+	text-decoration: underline;
+	width: auto;
+}
+
+
+#p2 .second{
+	color: rgb(204, 0, 0);
+	cursor: auto;
+	display: block;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 27px;
+	line-height: 27px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 5px;
+	text-align: center;
+	width: 160px;
+}
+
+#p2 .third{
+	color: rgb(34, 34, 34);
+	cursor: auto;
+	display: block;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	height: 38px;
+	line-height: 19.59375px;
+	margin-top: 5px;
+	text-align: center;
+	width: 160px;
+
+}
+
+#p2 a{
+	text-decoration: none;
+}
+
+#p3 {
+	float: left;
+	width: 160px;
+	text-align: center;
+}
+
+#p3 .first{
+	color: rgb(51, 102, 153);
+	cursor: auto;
+	display: inline;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	height: auto;
+	line-height: 27px;
+	text-align: center;
+	text-decoration: underline;
+	width: auto;
+}
+
+
+#p3 .second{
+	color: rgb(204, 0, 0);
+	cursor: auto;
+	display: block;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 27px;
+	line-height: 27px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 5px;
+	text-align: center;
+	width: 160px;
+}
+
+#p3 .third{
+	color: rgb(34, 34, 34);
+	cursor: auto;
+	display: block;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	height: 38px;
+	line-height: 19.59375px;
+	margin-top: 5px;
+	text-align: center;
+	width: 160px;
+}
+
+#p3 a{
+	text-decoration: none;
+}
